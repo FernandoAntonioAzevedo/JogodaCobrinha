@@ -2,7 +2,7 @@ import SnakeGame from './snake/Game';
 import { GOT_APPLE } from './snake/consts';
 import { ERROR, START, PAUSE, RESUME } from './engine/consts';
 
-import Box from './interface/Box';
+import Box from './interfaceproject/Box';
 
 const SNAKE_SOUND = new Audio('https://sndup.net/3bcm/ekans.mp3');
 const SOUNDTRACK = new Audio('https://sndup.net/2dd6/Pokemon.mp3');
