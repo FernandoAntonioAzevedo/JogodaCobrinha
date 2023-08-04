@@ -1,0 +1,56 @@
+body, button {
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  button {
+    background: none;
+    border: solid 1px #ddd;
+    border-width: 0 0 1px;
+    cursor: pointer;
+    padding-top: 1px;
+    
+    &:hover {
+      background: #f1f1f1;
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #game-canvas {
+    display: inline-block;
+    background: #f1f1f1;
+    white-space: pre;
+    line-height: 0.6;
+    margin-top: 5px;
+    padding: 3px 2px;
+    text-align: left;
+  }
+  
+  #info-box, 
+  #error-box {
+    display: inline-block;
+    padding: 5px 0 0 10px;
+  }
+  
+  #info-box {
+    color: #05c;
+  }
+  
+  #error-box {
+    color: #c00;
+  }
+  
+  .touch-btn {
+    padding: 20px;
+  }
+  
+  .point {
+    display: inline-block;
+    height: 0.55em;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+<body>
+  <div id="games-btns">
+    <button id="snake-game">Snake</button>
+    <button id="crush-game">Crush Candy</button>
+  </div>
+  <div id="game" class="hidden">
+    <button id="start-btn">start game</button>
+    <button id="pause-btn">pause game</button>
+    <br/>
+    <div id="game-canvas"></div>
+    <br/>
+    <div id="info-box"></div>
+    <div id="error-box"></div>
+    <br/>
+    <div class="touch-btn-group">
+      <button class="touch-btn" id="up-btn">up</button><br/>
+      <button class="touch-btn" id="left-btn">left</button>
+      <button class="touch-btn" id="right-btn">right</button><br/>
+      <button class="touch-btn" id="down-btn">down</button>
+    </div>
+  </div>
+  
+  <script src="scripts/index.processed.js"></script>
+</body>
+</html>
